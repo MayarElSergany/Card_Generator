@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    background-color: bisque;
+}
+
+#div1 {
+    height: 60px;
+    background-image:
+        linear-gradient(to bottom,
+            rgb(252, 221, 235),
+            rgb(255, 233, 237),
+            rgb(247, 242, 242),
+            rgb(252, 221, 226));
+}
+
+h1,
+h2 {
+    color: cadetblue;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+}
+
+img {
+    height: 180px;
+    width: 180px;
+}
+
+#button-generate {
+    width: 140px;
+    height: 40px;
+    border: 2px;
+    border-radius: 2px;
+    color: wheat;
+    background-color: cadetblue;
+    margin: 10px;
+    font-weight: bold;
+}
+
+#button-generate:hover {
+    box-shadow: rgb(25, 86, 88) 0px 5px 10px;
+}
